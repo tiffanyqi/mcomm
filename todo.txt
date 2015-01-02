@@ -1,0 +1,19 @@
+Site map:
+    Home
+    About
+    Leadership
+    Recruitment
+    Events
+        google calendar API
+    Contact
+        Social media (LI, FB, Twitter)
+
+Direct mcommcal site translation
+
+Branding guide (colors):
+    - #266581 - dark blue (1)
+    - #9cc9f2 - lighter blue (1)
+    - #1a93dc - blue (2)
+    - #daecff - lighter lighter blue (2)
+
+Font (Roboto)
