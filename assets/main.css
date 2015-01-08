@@ -1,3 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: #1a93dc;
+}
+button {
+    display: block;
+    margin: 10 auto;
+    padding: 20 100;
+    font-size: 20px;
+    background: #white;
+}
+#home {
+    margin-top: 170px;
+}
+a {
+    text-decoration: none;
 }
