@@ -113,6 +113,35 @@ a {
     display: inline-block;
 }
 
+.profile2-1 {
+    padding: 10px;
+    text-align: left;
+    transition: 0.5s;
+    margin-bottom: 100px;
+}
+.profile2-2 {
+    padding: 10px;
+    text-align: right;
+    transition: 0.5s;
+    margin-bottom: 100px;
+}
+.circle1 {
+    border-radius: 50%;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 50;
+    float: left;
+}
+.circle2 {
+    border-radius: 50%;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 50;
+    float: right;
+}
+
 /* Responsitivity */
 @media screen and (max-width: 682px) {
     #home h1 {
