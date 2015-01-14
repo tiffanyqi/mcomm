@@ -1,14 +1,26 @@
 Site map:
-    Home
-    About
-    Leadership
+    Home: heading
+    About: content, pictures?
+    Leadership: pictures, 
     Recruitment
+        committees (content), pictures too
     Events
         google calendar API
-    Contact
-        Social media (LI, FB, Twitter)
+        picture of our previous events; flyers, etc
+    Partners: logos
+        Unilever: http://www.unilever.com/
+        Ford: www.ford.com/
+        LinkedIn: https://www.linkedin.com/
+        TubeMogul: www.tubemogul.com/
+        Altria: www.altria.com/
+        Cisco: www.cisco.com/
+        Nielsen: www.nielsen.com/us/en.html
+        Simon Kutcher & Partners: www.simon-kucher.com/en-us
 
-Direct mcommcal site translation
+    Contact: Social media (FB, Twitter)
+        https://twitter.com/CalMComm
+        https://www.facebook.com/mcommcal
+        Maybe linkedIn
 
 Branding guide (colors):
     - #266581 - dark blue (1)
@@ -16,4 +28,4 @@ Branding guide (colors):
     - #1a93dc - blue (2)
     - #daecff - lighter lighter blue (2)
 
-Font (Roboto)
+Font (Open Sans)

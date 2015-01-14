@@ -1,0 +1,139 @@
+/* Navigation */
+.navbar-item {
+    padding: 20px;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.7s;
+}
+.navbar-item:hover {
+    background: #266581;
+    transition: 0.7s;
+}
+#navbar {
+    width: 100%;
+    background: #1a93dc;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+#navbar a {
+    transition: 0.7s;
+    color: #daecff;
+    text-shadow: 3px 3px #266581;
+}
+#navbar a:hover {
+    transition: 0.7s;
+    color: white;
+}
+
+/* Home */
+#header {
+    width: 100%;
+    height: auto;
+}
+#home {
+    padding: 0;
+    margin: 0;
+}
+#home h1 {
+    position: absolute;
+    width: 100%;
+    top: 225px;
+    color: #9cc9f2;
+    font-size: 40px;
+}
+/* About */
+#about {
+    background: #266581;
+    color: #9cc9f2;
+    padding: 100;
+}
+#about h1 {
+    color: white;
+}
+#about h2 {
+    color: #9cc9f2;
+}
+/* Leadership */
+#leadership {
+    padding: 100 0;
+    width: 100%;
+}
+.profile {
+    display: inline-block;
+    width: 31%;
+    padding: 10px;
+    text-align: center;
+    background: #9cc9f2;
+    transition: 0.5s;
+    opacity: 0.7;
+    margin-right: -4px;
+}
+.profile:hover {
+    opacity: 1;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    overflow-x: hidden;
+}
+.container p {
+    line-height: 1.7;
+}
+.column {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: #1a93dc;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+}
+.circle {
+    border-radius: 50%;
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 20;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Responsitivity */
+@media screen and (max-width: 682px) {
+    #home h1 {
+        top: 125px;
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 729px) {
+    #navbar {
+        width: 729px;
+    }
+}
+@media screen and (max-width: 886px) {
+    .column {
+        display: block;
+        width: 100%;
+    }
+    .column p {
+        text-align: left;
+    }
+    #about {
+        padding: 50px;
+    }
+}
