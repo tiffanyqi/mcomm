@@ -1,22 +1,10 @@
 Site map:
     Leadership: pictures, content
     Events
-        google calendar API
         picture of our previous events; flyers, etc
-    Partners: logos
-        Unilever: http://www.unilever.com/
-        Ford: www.ford.com/
-        LinkedIn: https://www.linkedin.com/
-        TubeMogul: www.tubemogul.com/
-        Altria: www.altria.com/
-        Cisco: www.cisco.com/
-        Nielsen: www.nielsen.com/us/en.html
-        Simon Kutcher & Partners: www.simon-kucher.com/en-us
-
-    Contact: Social media (FB, Twitter)
-        https://twitter.com/CalMComm
-        https://www.facebook.com/mcommcal
-        Maybe linkedIn
+        google calendar API
+    Responsivity
+    Contact; move upwards rather than bottom?
 
 Branding guide (colors):
     - #266581 - dark blue (1)
