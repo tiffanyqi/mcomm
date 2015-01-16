@@ -1,9 +1,5 @@
 Site map:
-    Home: heading
-    About: content, pictures?
-    Leadership: pictures, 
-    Recruitment
-        committees (content), pictures too
+    Leadership: pictures, content
     Events
         google calendar API
         picture of our previous events; flyers, etc
@@ -27,5 +23,3 @@ Branding guide (colors):
     - #9cc9f2 - lighter blue (1)
     - #1a93dc - blue (2)
     - #daecff - lighter lighter blue (2)
-
-Font (Open Sans)
