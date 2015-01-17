@@ -1,10 +1,12 @@
 Site map:
+    Change header, add logo, bigger font-size, add icons up top (like engineering week)
     Leadership: pictures, content
     Events
         picture of our previous events; flyers, etc
         google calendar API
-    Responsivity
+    Responsivity (leadership, events, partners)
     Contact; move upwards rather than bottom?
+    Find another font for h1
 
 Branding guide (colors):
     - #266581 - dark blue (1)

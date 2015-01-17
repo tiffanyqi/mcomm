@@ -1,6 +1,6 @@
 /* Navigation */
 .navbar-item {
-    padding: 20px;
+    padding: 25;
     display: inline-block;
     font-size: 18px;
     text-transform: uppercase;
@@ -10,21 +10,33 @@
     background: #266581;
     transition: 0.7s;
 }
+.navbar-item-logo {
+    padding: 10;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.7s;
+    float: left;
+}
+.navbar-item-logo:hover {
+    background: #266581;
+    transition: 0.7s;
+}
 #navbar {
     width: 100%;
-    background: #1a93dc;
+    background: black;
     top: 0px;
     left: 0px;
     text-align: center;
     position: fixed;
     z-index: 100;
+    opacity: 0.6;
 }
 #navbar a {
     transition: 0.7s;
-    color: #daecff;
-    text-shadow: 3px 3px #266581;
+    color: #9cc9f2;
+    font-family: 'Raleway', sans-serif;
 }
-#navbar a:hover {
+#navbar:hover a {
     transition: 0.7s;
     color: white;
 }
@@ -41,43 +53,51 @@
 #home h1 {
     position: absolute;
     width: 100%;
-    top: 280px;
-    color: #9cc9f2;
+    top: 100px;
+    color: #daecff;
+    text-shadow: 1px 1px 1px black;
     font-size: 40px;
-    background: black;
     padding: 20 0;
     opacity: 0.7;
+}
+.icon {
+    height: 30px;
+}
+#social-icons.container {
+    text-align: center;
+}
+#mail {
+    position: absolute;
+    top: 100px;
+    margin: 0 -50;
+}
+#facebook {
+    position: absolute;
+    top: 100px;
+    margin: 0px;
+}
+#twitter {
+    position: absolute;
+    top: 100px;
+    margin: 0 50;
 }
 /* About */
 #about {
     background: #266581;
-    color: #9cc9f2;
+    color: #daecff;
     padding: 100;
 }
 #about h1 {
     color: white;
 }
 #about h2 {
-    color: #9cc9f2;
+    color: #daecff;
 }
 /* Leadership */
 #leadership.container {
     padding: 100 0;
     width: 100%;
 }
-/*.profile {
-    display: inline-block;
-    width: 31%;
-    padding: 10px;
-    text-align: center;
-    background: #9cc9f2;
-    transition: 0.5s;
-    opacity: 0.7;
-    margin-right: -4px;
-}
-.profile:hover {
-    opacity: 1;
-}*/
 
 .profile-left {
     padding: 50 0;
@@ -209,6 +229,7 @@ h1 {
     text-align: center;
     color: #1a93dc;
     font-size: 40px;
+    font-family: 'Raleway', sans-serif;
 }
 h2 {
     color: #1a93dc;
@@ -223,15 +244,6 @@ a {
 ul {
     list-style-type: none;
 }
-/*.circle {
-    border-radius: 50%;
-    background: blue;
-    width: 200px;
-    height: 200px;
-    margin: 20;
-    text-align: center;
-    display: inline-block;
-}*/
 
 /* Responsitivity */
 @media screen and (max-width: 682px) {
@@ -240,9 +252,9 @@ ul {
         font-size: 35px;
     }
 }
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 766px) {
     #navbar {
-        width: 729px;
+        width: 766px;
     }
 /*     logo changes here */
 }
@@ -259,15 +271,11 @@ ul {
     }
 /*     profiles and circles change here */
 }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1076px) {
+    #header {
+        margin-top: -150px;
+    }
     #home h1 {
-        position: absolute;
-        width: 100%;
-        top: 350px;
-        color: #9cc9f2;
-        font-size: 40px;
-        background: black;
-        padding: 20 0;
-        opacity: 0.7;
+        font-size: 60px;
     }
 }

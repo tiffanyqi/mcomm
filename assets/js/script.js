@@ -5,4 +5,12 @@ $(document).ready(function() {
             scrollTop: $(this.hash).offset().top - topHeight
         });
     });
+
+    $(".icon").hover(
+        function() {
+            this.src = "assets/img/contact/" + this.id + "-logo-hover.png"; 
+        }, function() {
+            this.src = "assets/img/contact/" + this.id + "-logo.png";
+        });
+
 });
