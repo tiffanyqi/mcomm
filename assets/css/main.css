@@ -40,6 +40,10 @@
     transition: 0.7s;
     color: white;
 }
+#mail, #facebook, #twitter {
+    padding: 20px;
+    float: right;
+}
 
 /* Home */
 #header {
@@ -53,33 +57,12 @@
 #home h1 {
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 50px;
     color: #daecff;
     text-shadow: 1px 1px 1px black;
-    font-size: 40px;
+    font-size: 70px;
     padding: 20 0;
     opacity: 0.7;
-}
-.icon {
-    height: 30px;
-}
-#social-icons.container {
-    text-align: center;
-}
-#mail {
-    position: absolute;
-    top: 100px;
-    margin: 0 -50;
-}
-#facebook {
-    position: absolute;
-    top: 100px;
-    margin: 0px;
-}
-#twitter {
-    position: absolute;
-    top: 100px;
-    margin: 0 50;
 }
 /* About */
 #about {
@@ -93,13 +76,39 @@
 #about h2 {
     color: #daecff;
 }
+
 /* Leadership */
 #leadership.container {
     padding: 100 0;
     width: 100%;
 }
-
 .profile-left {
+    padding: 0;
+    display: inline-block;
+    border: 1px dotted gray;
+    box-shadow: 1px 1px 1px #266581;
+    margin: 100px;
+}
+.profile-left:hover {
+    background: #daecff;
+}
+.circle-left {
+    border-radius: 50%;
+    border: 10px solid #266581;
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin: 25 50 100 20;
+    float: left;
+    display: inline-block;
+}
+.profile-content-left {
+    padding: 0;
+    width: 90%;
+    border: none;
+    box-shadow: none;
+}
+/*.profile-left {
     padding: 50 0;
     text-align: left;
     transition: 0.5s;
@@ -110,7 +119,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 60 250 100;
+    margin: 25 60 300 100;
     float: left;
 }
 .profile-content-left {
@@ -124,7 +133,7 @@
 .profile-content-left:hover {
     transition: 0.7s;
     background: #daecff;
-}
+}*/
 .profile-right {
     padding: 50 0;
     text-align: right;
@@ -136,7 +145,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 100 250 60;
+    margin: 25 100 300 60;
     float: right;
 }
 .profile-content-right {
@@ -155,7 +164,7 @@
 /* Events */
 #events.container {
     background: #266581;
-    padding: 100 0 200 0;
+    padding: 100 0 50 0;
     display: inline-block;
     width: 100%;
 }
@@ -226,9 +235,9 @@ footer {
 }
 .column {
     display: inline-block;
-    width: 27%;
+    width: 27.7%;
     margin: auto;
-    text-align: left;
+    text-align: center;
     padding: 0 20;
 }
 h1 {
@@ -255,27 +264,24 @@ iframe {
 }
 
 /* Responsitivity */
-@media screen and (max-width: 682px) {
+@media screen and (max-width: 741px) {
     #home h1 {
-        top: 125px;
-        font-size: 35px;
+        font-size: 50px;
     }
 }
-@media screen and (max-width: 766px) {
-    #navbar {
-        width: 766px;
-    }
-}
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 959px) {
     .column {
         display: block;
         width: 100%;
+    }
+    .column p {
+        text-align: left;
     }
     #about {
         padding: 50px;
     }
     .profile-left {
-        padding: 0;
+        padding: 30;
         display: block;
         border: 1px dotted gray;
         box-shadow: 1px 1px 1px #266581;
@@ -286,14 +292,14 @@ iframe {
     }
     .circle-left {
         margin: 10 auto;
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         display: block;
         float: none;
     }
     .profile-content-left {
         padding: 0;
-        width: 90%;
+        width: 100%;
         border: none;
         box-shadow: none;
     }
@@ -327,14 +333,18 @@ iframe {
     .profile-content-right h2, .profile-content-right h3{
         text-align: center;
     }
-
 }
-@media screen and (min-width: 1076px) {
+@media screen and (max-width: 969px) {
+    #navbar {
+        width: 969px;
+    }
+}
+@media screen and (min-width: 1147px) {
     #header {
         margin-top: -150px;
     }
     #home h1 {
-        font-size: 60px;
+        font-size: 70px;
     }
     #partners.container {
         margin: 0 200;
