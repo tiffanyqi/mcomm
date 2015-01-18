@@ -100,7 +100,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 50 150 20;
+    margin: 25 50 50 20;
     float: left;
     display: inline-block;
 }
@@ -129,7 +129,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 20 150 50;
+    margin: 25 20 50 50;
     float: right;
     display: inline-block;
 }
