@@ -86,11 +86,13 @@
     padding: 0;
     display: inline-block;
     border: 1px dotted gray;
-    box-shadow: 1px 1px 1px #266581;
-    margin: 100px;
+    box-shadow: -1px 1px 1px #266581;
+    margin: 10 100;
+    transition: 0.7s;
 }
 .profile-left:hover {
     background: #daecff;
+    transition: 0.7s;    
 }
 .circle-left {
     border-radius: 50%;
@@ -103,41 +105,23 @@
     display: inline-block;
 }
 .profile-content-left {
-    padding: 0;
-    width: 90%;
-    border: none;
-    box-shadow: none;
-}
-/*.profile-left {
-    padding: 50 0;
-    text-align: left;
-    transition: 0.5s;
-}
-.circle-left {
-    border-radius: 50%;
-    border: 10px solid #266581;
-    background: white;
-    width: 200px;
-    height: 200px;
-    margin: 25 60 300 100;
-    float: left;
-}
-.profile-content-left {
-    width: 700px;
-    margin: auto;
-    border: 1px dotted gray;
     padding: 0 50;
-    box-shadow: 1px 1px 1px #266581;
-    transition: 0.7s;
 }
-.profile-content-left:hover {
+.profile-left p, .profile-right p {
+    color: black;
+}
+.profile-right {
+    transition: 0.7s;
+    padding: 0;
+    display: inline-block;
+    border: 1px dotted gray;
+    box-shadow: 1px 1px 1px #266581;
+    margin: 10 100;
+    text-align: right;
+}
+.profile-right:hover {
     transition: 0.7s;
     background: #daecff;
-}*/
-.profile-right {
-    padding: 50 0;
-    text-align: right;
-    transition: 0.5s;
 }
 .circle-right {
     border-radius: 50%;
@@ -145,20 +129,12 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 100 300 60;
+    margin: 25 20 100 50;
     float: right;
+    display: inline-block;
 }
 .profile-content-right {
-    width: 700px;
-    margin: auto;
-    border: 1px dotted gray;
     padding: 0 50;
-    box-shadow: -1px 1px 1px #266581;
-    transition: 0.7s;
-}
-.profile-content-right:hover {
-    transition: 0.7s;
-    background: #daecff;
 }
 
 /* Events */
@@ -283,39 +259,27 @@ iframe {
     .profile-left {
         padding: 30;
         display: block;
-        border: 1px dotted gray;
-        box-shadow: 1px 1px 1px #266581;
         margin: 20px;
-    }
-    .profile-left:hover {
-        background: #daecff;
     }
     .circle-left {
         margin: 10 auto;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         display: block;
         float: none;
     }
     .profile-content-left {
         padding: 0;
         width: 100%;
-        border: none;
-        box-shadow: none;
     }
     .profile-content-left h2, .profile-content-left h3{
         text-align: center;
     }
     .profile-right {
-        padding: 0;
+        padding: 30;
         display: block;
-        border: 1px dotted gray;
-        box-shadow: 1px 1px 1px #266581;
         margin: 20px;
         text-align: left;
-    }
-    .profile-right:hover {
-        background: #daecff;
     }
     .circle-right {
         margin: 10 auto;
@@ -326,11 +290,9 @@ iframe {
     }
     .profile-content-right {
         padding: 0;
-        width: 90%;
-        border: none;
-        box-shadow: none;
+        width: 100%;
     }
-    .profile-content-right h2, .profile-content-right h3{
+    .profile-content-right h2, .profile-content-right h3 {
         text-align: center;
     }
 }
