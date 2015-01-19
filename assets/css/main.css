@@ -100,7 +100,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 50 50 20;
+    margin: 25 50 110 20;
     float: left;
     display: inline-block;
 }
@@ -129,7 +129,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 20 50 50;
+    margin: 25 20 100 50;
     float: right;
     display: inline-block;
 }
@@ -159,6 +159,12 @@
 .events-box:hover {
     opacity: 1;
     transition: 0.7s;
+}
+
+/* Recruitment */
+#apply.container {
+    padding: 100;
+    background: #daecff;
 }
 
 /*Partners*/
@@ -195,6 +201,7 @@ body {
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    font-size: 20px;
 }
 html {
     overflow-x: hidden;
@@ -238,6 +245,14 @@ ul {
 iframe {
     margin: 100 0;
 }
+button {
+    padding: 20 50;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+    background: #266581;
+    color: white;
+}
 
 /* Responsitivity */
 @media screen and (max-width: 741px) {
@@ -245,7 +260,7 @@ iframe {
         font-size: 50px;
     }
 }
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 969px) {
     .column {
         display: block;
         width: 100%;
@@ -296,9 +311,9 @@ iframe {
         text-align: center;
     }
 }
-@media screen and (max-width: 969px) {
+@media screen and (max-width: 1087px) {
     #navbar {
-        width: 969px;
+        width: 1087px;
     }
 }
 @media screen and (min-width: 1147px) {
