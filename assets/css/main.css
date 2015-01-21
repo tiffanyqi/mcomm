@@ -1,8 +1,8 @@
 /* Navigation */
 .navbar-item {
-    padding: 25;
+    padding: 20;
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     transition: 0.7s;
 }
@@ -11,7 +11,7 @@
     transition: 0.7s;
 }
 .navbar-item-logo {
-    padding: 10;
+    padding: 15;
     display: inline-block;
     text-transform: uppercase;
     transition: 0.7s;
@@ -41,7 +41,7 @@
     color: white;
 }
 #mail, #facebook, #twitter {
-    padding: 20px;
+    padding: 15;
     float: right;
 }
 
@@ -100,7 +100,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 50 110 20;
+    margin: 25 50 20 20;
     float: left;
     display: inline-block;
 }
@@ -129,7 +129,7 @@
     background: white;
     width: 200px;
     height: 200px;
-    margin: 25 20 100 50;
+    margin: 25 20 20 50;
     float: right;
     display: inline-block;
 }
@@ -311,9 +311,9 @@ button {
         text-align: center;
     }
 }
-@media screen and (max-width: 1087px) {
+@media screen and (max-width: 935px) {
     #navbar {
-        width: 1087px;
+        width: 935px;
     }
 }
 @media screen and (min-width: 1147px) {
