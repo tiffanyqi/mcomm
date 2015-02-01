@@ -57,12 +57,12 @@
 #home h1 {
     position: absolute;
     width: 100%;
-    top: 50px;
-    color: #daecff;
-    text-shadow: 1px 1px 1px black;
+    top: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
     font-size: 70px;
     padding: 20 0;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 /* About */
 #about {
@@ -216,13 +216,6 @@ footer {
 .container p {
     line-height: 1.7;
 }
-.column {
-    display: inline-block;
-    width: 27.7%;
-    margin: auto;
-    text-align: center;
-    padding: 0 20;
-}
 h1 {
     text-align: center;
     color: #1a93dc;
@@ -252,6 +245,22 @@ button {
     font-size: 18px;
     background: #266581;
     color: white;
+}
+p.small {
+    font-size: 70%;
+    padding: 0 200;
+}
+td {
+    vertical-align: top;
+    text-align: center;
+    color: #daecff;
+    font-size: 16px;
+    padding: 10;
+    line-height: 1.6;
+}
+th {
+    color: #daecff;
+    font-size: 20px;
 }
 
 /* Responsitivity */
@@ -316,15 +325,20 @@ button {
         width: 935px;
     }
 }
-@media screen and (min-width: 1147px) {
-    #header {
-        margin-top: -150px;
-    }
+@media screen and (min-width: 1098px) {
     #home h1 {
-        font-size: 70px;
+        top: 50px;
+        font-size: 80px;
     }
+}
+@media screen and (min-width: 1147px) {
     #partners.container {
         margin: 0 200;
         width: 70%;
+    }
+}
+@media screen and (min-width: 1258px) {
+    #home h1 {
+        font-size: 95px;
     }
 }
