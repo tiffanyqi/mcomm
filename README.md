@@ -1,4 +1,4 @@
 mcomm
 =====
 
-Remaking Marketing Community at Berkeley's organizational website, the original website currently hosted at http://www.mcommcal.com
+Remaking Marketing Community at Berkeley's organization website. Currently located at http://mcomm.berkeley.edu.
